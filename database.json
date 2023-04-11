@@ -1,0 +1,373 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Danny Phantom",
+      "email": "GoingGhost0@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Barry Allen",
+      "email": "AllenB@CCPD.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Luke Skywalker",
+      "email": "RebelsLuke@rakuten.co.jp",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Dan Brady",
+      "email": "DanMBrady@Dan.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Stevie Nicks",
+      "email": "GoldDustWoman@51.la",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Johnny Appleseed",
+      "email": "Nature9@psu.edu",
+      "isStaff": true
+    },
+    {
+      "fullName": "Johnny Test",
+      "email": "johnnytest@gmail.com",
+      "isStaff": true,
+      "id": 7
+    },
+    {
+      "fullName": "Naruto Ukumaki",
+      "email": "MangaLover@gmail.com",
+      "isStaff": true,
+      "id": 8
+    },
+    {
+      "fullName": "Wonder Woman",
+      "email": "LassoOfTruth@gmail.com",
+      "isStaff": true,
+      "id": 9
+    },
+    {
+      "fullName": "Mario Mario",
+      "email": "supermario@gmail.com",
+      "isStaff": true,
+      "id": 10
+    },
+    {
+      "fullName": "Yara Flor",
+      "email": "IloveJerry@gmail.com",
+      "isStaff": true,
+      "id": 11
+    },
+    {
+      "fullName": "Will Ferrell",
+      "email": "IamFigureSkating@gmail.com",
+      "isStaff": false,
+      "id": 12
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "2802 Zula Locks",
+      "phoneNumber": "852-837-9713",
+      "loyaltyNumber": "12121",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "address": "56849 Fadel Gateway",
+      "phoneNumber": "202-244-7090",
+      "loyaltyNumber": "12345",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "address": "7346 Ritchie Road",
+      "phoneNumber": "(507) 720-1157",
+      "loyaltyNumber": "54321",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "address": "21 Hollywood Road",
+      "phoneNumber": "(507) 720-1157",
+      "loyaltyNumber": "18192",
+      "userId": 12
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "2019-01-11",
+      "locationId": 1,
+      "rate": 72.47,
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "startDate": "2022-02-20",
+      "locationId": 2,
+      "rate": 97.39,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "startDate": "2021-04-14",
+      "locationId": 3,
+      "rate": 29.45,
+      "userId": 6
+    },
+    {
+      "startDate": "2023-04-14",
+      "locationId": 3,
+      "rate": 73,
+      "userId": 7,
+      "id": 4
+    },
+    {
+      "startDate": "2023-04-29",
+      "locationId": 2,
+      "rate": 72,
+      "userId": 8,
+      "id": 5
+    },
+    {
+      "startDate": "2023-04-06",
+      "locationId": 3,
+      "rate": 100,
+      "userId": 9,
+      "id": 6
+    },
+    {
+      "startDate": "2023-04-07",
+      "locationId": 3,
+      "rate": 21,
+      "userId": 10,
+      "id": 7
+    },
+    {
+      "startDate": "2023-04-08",
+      "locationId": 2,
+      "rate": 120,
+      "userId": 11,
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "address": "21 Kandy lane",
+      "squareFootage": 1000,
+      "id": 1
+    },
+    {
+      "address": "46 Kandy road",
+      "squareFootage": 4000,
+      "id": 2
+    },
+    {
+      "address": "100 Kandy road",
+      "squareFootage": 5000,
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Kit Kats",
+      "typeId": 1,
+      "price": 5
+    },
+    {
+      "id": 2,
+      "name": "Reeses",
+      "typeId": 1,
+      "price": 6
+    },
+    {
+      "id": 3,
+      "name": "Sour Patch Kids",
+      "typeId": 2,
+      "price": 5.5
+    },
+    {
+      "id": 4,
+      "name": "Swedish Fish",
+      "typeId": 2,
+      "price": 3.5
+    },
+    {
+      "id": 5,
+      "name": "Skittles",
+      "typeId": 3,
+      "price": 5
+    },
+    {
+      "id": 6,
+      "name": "Nerds",
+      "typeId": 3,
+      "price": 4
+    },
+    {
+      "userId": 4,
+      "name": "Gummy Worms",
+      "price": 2.5,
+      "typeId": 2,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "name": "Twizzlers",
+      "price": 7,
+      "typeId": 2,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "name": "Twix",
+      "price": 3,
+      "typeId": 1,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "name": "Laffy Taffy",
+      "price": 4,
+      "typeId": 2,
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "name": "Jolly Ranchers",
+      "price": 2,
+      "typeId": 3,
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "name": "Nerds",
+      "price": 2,
+      "typeId": 3,
+      "id": 13
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "chocolates"
+    },
+    {
+      "id": 2,
+      "type": "gummies"
+    },
+    {
+      "id": 3,
+      "type": "hard candies"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 5,
+      "purchaseAmount": 2
+    },
+    {
+      "customerId": 1,
+      "productId": 1,
+      "purchaseAmount": 1,
+      "id": 2
+    },
+    {
+      "customerId": 4,
+      "productId": 13,
+      "purchaseAmount": 10,
+      "id": 3
+    },
+    {
+      "customerId": 4,
+      "productId": 10,
+      "purchaseAmount": 5,
+      "id": 4
+    },
+    {
+      "customerId": 2,
+      "productId": 3,
+      "purchaseAmount": 17,
+      "id": 5
+    },
+    {
+      "customerId": 2,
+      "productId": 13,
+      "purchaseAmount": 21,
+      "id": 6
+    },
+    {
+      "customerId": 3,
+      "productId": 2,
+      "purchaseAmount": 1,
+      "id": 7
+    },
+    {
+      "customerId": 3,
+      "productId": 8,
+      "purchaseAmount": 3,
+      "id": 8
+    },
+    {
+      "customerId": 3,
+      "productId": 8,
+      "purchaseAmount": 1,
+      "id": 9
+    },
+    {
+      "customerId": 3,
+      "productId": 1,
+      "purchaseAmount": 3,
+      "id": 10
+    },
+    {
+      "customerId": 3,
+      "productId": 8,
+      "purchaseAmount": 4,
+      "id": 11
+    },
+    {
+      "customerId": 1,
+      "productId": 11,
+      "purchaseAmount": 6,
+      "id": 12
+    },
+    {
+      "customerId": 1,
+      "productId": 10,
+      "purchaseAmount": 1,
+      "id": 13
+    },
+    {
+      "customerId": 1,
+      "productId": 12,
+      "purchaseAmount": 8,
+      "id": 14
+    },
+    {
+      "customerId": 1,
+      "productId": 4,
+      "purchaseAmount": 2,
+      "id": 15
+    },
+    {
+      "customerId": 1,
+      "productId": 9,
+      "purchaseAmount": 3,
+      "id": 16
+    }
+  ]
+}
