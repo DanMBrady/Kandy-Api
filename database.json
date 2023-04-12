@@ -31,46 +31,22 @@
       "isStaff": true
     },
     {
-      "id": 6,
-      "fullName": "Johnny Appleseed",
-      "email": "Nature9@psu.edu",
-      "isStaff": true
-    },
-    {
-      "fullName": "Johnny Test",
-      "email": "johnnytest@gmail.com",
-      "isStaff": true,
-      "id": 7
-    },
-    {
-      "fullName": "Naruto Ukumaki",
-      "email": "MangaLover@gmail.com",
-      "isStaff": true,
-      "id": 8
-    },
-    {
-      "fullName": "Wonder Woman",
-      "email": "LassoOfTruth@gmail.com",
-      "isStaff": true,
-      "id": 9
-    },
-    {
-      "fullName": "Mario Mario",
-      "email": "supermario@gmail.com",
-      "isStaff": true,
-      "id": 10
-    },
-    {
       "fullName": "Yara Flor",
       "email": "IloveJerry@gmail.com",
       "isStaff": true,
-      "id": 11
+      "id": 7
     },
     {
       "fullName": "Will Ferrell",
       "email": "IamFigureSkating@gmail.com",
       "isStaff": false,
-      "id": 12
+      "id": 8
+    },
+    {
+      "fullName": "Mario Mario",
+      "email": "MarioMovie@gmail.com",
+      "isStaff": true,
+      "id": 10
     }
   ],
   "customers": [
@@ -100,7 +76,7 @@
       "address": "21 Hollywood Road",
       "phoneNumber": "(507) 720-1157",
       "loyaltyNumber": "18192",
-      "userId": 12
+      "userId": 8
     }
   ],
   "employees": [
@@ -119,46 +95,18 @@
       "userId": 5
     },
     {
-      "id": 3,
-      "startDate": "2021-04-14",
-      "locationId": 3,
-      "rate": 29.45,
-      "userId": 6
-    },
-    {
-      "startDate": "2023-04-14",
-      "locationId": 3,
-      "rate": 73,
-      "userId": 7,
-      "id": 4
-    },
-    {
-      "startDate": "2023-04-29",
-      "locationId": 2,
-      "rate": 72,
-      "userId": 8,
-      "id": 5
-    },
-    {
-      "startDate": "2023-04-06",
-      "locationId": 3,
-      "rate": 100,
-      "userId": 9,
-      "id": 6
-    },
-    {
-      "startDate": "2023-04-07",
-      "locationId": 3,
-      "rate": 21,
-      "userId": 10,
-      "id": 7
-    },
-    {
       "startDate": "2023-04-08",
       "locationId": 2,
       "rate": 120,
-      "userId": 11,
+      "userId": 7,
       "id": 8
+    },
+    {
+      "startDate": "2023-04-19",
+      "locationId": 2,
+      "rate": 55,
+      "userId": 10,
+      "id": 10
     }
   ],
   "locations": [
@@ -368,6 +316,12 @@
       "productId": 9,
       "purchaseAmount": 3,
       "id": 16
+    },
+    {
+      "customerId": 1,
+      "productId": 8,
+      "purchaseAmount": 6,
+      "id": 17
     }
   ]
 }
